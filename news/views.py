@@ -1,4 +1,3 @@
-from turtle import tilt
 import requests
 from django.shortcuts import render, redirect
 from bs4 import BeautifulSoup 
