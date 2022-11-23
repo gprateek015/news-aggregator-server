@@ -1,5 +1,4 @@
 import requests
-from django.shortcuts import render, redirect
 from bs4 import BeautifulSoup 
 from news.models import Headline
 from rest_framework.response import Response

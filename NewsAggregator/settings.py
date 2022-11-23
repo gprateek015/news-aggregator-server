@@ -57,6 +57,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://newsaggregator01.netlify.app'
 ]
 
 ROOT_URLCONF = 'NewsAggregator.urls'
