@@ -26,7 +26,7 @@ SECRET_KEY = 'xe4hmfwal+58e7@8u@&g^x2xsow_hyv7%m3wmk^o4u(%+!73cw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['http://localhost', '127.0.0.1', 'https://newsaggregator01.herokuapp.com']
 
 
 # Application definition
