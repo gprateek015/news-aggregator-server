@@ -26,8 +26,9 @@ SECRET_KEY = 'xe4hmfwal+58e7@8u@&g^x2xsow_hyv7%m3wmk^o4u(%+!73cw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', '0.0.0.0' ,'http://localhost', '127.0.0.1', 'https://newsaggregator01.herokuapp.com', 'newsaggregator01.herokuapp.com']
+ALLOWED_HOSTS = ['*', '0.0.0.0' ,'http://localhost', '127.0.0.1']
 
+CORS_ORIGIN_ALLOW_ALL=True
 
 # Application definition
 
@@ -55,10 +56,10 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://newsaggregator01.netlify.app'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3000',
+#     'https://newsaggregator01.netlify.app'
+# ]
 
 ROOT_URLCONF = 'NewsAggregator.urls'
 
