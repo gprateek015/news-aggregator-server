@@ -26,7 +26,7 @@ SECRET_KEY = 'xe4hmfwal+58e7@8u@&g^x2xsow_hyv7%m3wmk^o4u(%+!73cw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', '0.0.0.0' ,'http://localhost', '127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['*', '0.0.0.0' ,'http://localhost', '127.0.0.1', '.vercel.app', '.now.sh']
 CORS_ORIGIN_ALLOW_ALL=True
 
 # Application definition
@@ -129,3 +129,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
