@@ -210,4 +210,4 @@ def scrape_breaking_news(request):
 
 @api_view(['GET'])
 def welcome(request):
-  return Response('We welcome you to use our web scraping api, send GET request to /scrape', 200)
+  return Response('We welcome you to use our web scraping api, send GET request to /scrape_latest', 200)
