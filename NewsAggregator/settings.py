@@ -130,4 +130,4 @@ USE_TZ = True
 
 STATIC_URL = 'NewsAggregator/static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'NewsAggregator/static')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files_build', 'static')
